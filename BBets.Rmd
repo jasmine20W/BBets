@@ -56,10 +56,17 @@ average=mean(sMyData)
 
 ## Effectiveness Confidence Interval `r low`  to `r high`
 
-
-
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
-
+```{r}
+MyData2 = numeric(1000)
+for (i in 1:1000) {
+  MyData2[i]= BrLw(odds = 4.38)
+}
+sMyData2 = sort(MyData2) 
+low=sMyData2[25]
+high=sMyData2[975]
+average=mean(sMyData2)
+```
 
 
 
