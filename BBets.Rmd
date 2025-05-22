@@ -95,11 +95,7 @@ middle=sMyData3[500]
 
 
 
-
-
-
-
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
-
+He made in a 95% confidence interval from 223-346 dollars with an average of 285.
